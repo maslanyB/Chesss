@@ -4,4 +4,9 @@ public class Rook extends Figure{
     }
     Rook[] rook = new Rook[8];
     void move(){};
+
+    @Override
+    public String toString() {
+        return "Rook";
+    }
 }
